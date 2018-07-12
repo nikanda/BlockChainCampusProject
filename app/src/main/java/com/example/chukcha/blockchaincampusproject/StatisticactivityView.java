@@ -9,13 +9,20 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class StatisticactivityView extends AppCompatActivity {
+
+    private TextView country_selected;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.salary_view);
+
+
+        country_selected = (TextView)findViewById(R.id.country_selected);
+        country_selected.setText(UserSettingsClass.getCountryTxt());
 
 
         ImageButton back_btn = (ImageButton)findViewById(R.id.back_btn);

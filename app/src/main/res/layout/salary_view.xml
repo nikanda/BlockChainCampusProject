@@ -16,6 +16,7 @@
         android:text="Average Salary in"/>
 
     <TextView
+        android:id="@+id/country_selected"
         android:text="sdfsdf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
