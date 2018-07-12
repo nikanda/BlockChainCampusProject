@@ -19,9 +19,10 @@
 
 
     <string-array name="education_array">
-        <item>MA</item>
-        <item>BA</item>
-        <item>MS.c</item>
+        <item>Secondary Schools</item>
+        <item>Bachelor</item>
+        <item>Master</item>
+        <item>Doctoral</item>
     </string-array>
 
 
