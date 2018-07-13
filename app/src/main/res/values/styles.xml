@@ -17,4 +17,20 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="text_items">
+        <item name="android:textColor">@color/almostWhite</item>
+        <item name="android:textSize">100sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="text_normal">
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
 </resources>
